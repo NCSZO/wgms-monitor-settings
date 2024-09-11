@@ -10,5 +10,5 @@
     "%G1_LuaWrapper.SendTCVRCommand(\"ALS:2602\")",
     "%G1_LuaWrapper.SendTCVRCommand(\"ALS:2603\")"
   ]
-{
+}
     
