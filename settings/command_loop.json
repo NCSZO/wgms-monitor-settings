@@ -6,9 +6,9 @@
     "%amps.getFiveMinutePowerSummary()",
     "%G1_LuaWrapper.SendTCVRCommand(\"ALS:2601\")",
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
-    "%G1_LuaWrapper.SendTCVRCommand(\"VS\")",
     "%G1_LuaWrapper.SendTCVRCommand(\"ALS:2602\")",
-    "%G1_LuaWrapper.SendTCVRCommand(\"ALS:2603\")"
+    "%G1_LuaWrapper.SendTCVRCommand(\"ALS:2603\")",
+    "%G1_LuaWrapper.SendTCVRCommand(\"ALS:2604\")"
   ]
 }
     
