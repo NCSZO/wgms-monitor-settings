@@ -1,13 +1,13 @@
 {
-  "active": false,
+  "active": true,
   "commands": [
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
     "%G1_LuaWrapper.SendTCVRCommand(\"VS\")",
-    "%G1_LuaWrapper.SendTCVRCommand(\"ALS:2601\")",
-    "%G1_LuaWrapper.SendTCVRCommand(\"ALS:2602\")",
+    "%G1_LuaWrapper.SendTCVRCommand(\"MSR:CI4801,IR5001,IR5002,IR5003\")",
+    "G1_LuaWrapper.CheckAcousticLinkStatus()",
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
     "%G1_LuaWrapper.SendTCVRCommand(\"VS\")",
-    "%G1_LuaWrapper.SendTCVRCommand(\"ALS:2603\")",
+    "%G1_LuaWrapper.SendTCVRCommand(\"MSR:CI4801,IR5001,IR5002,IR5003\")",
     "%G1_LuaWrapper.CheckAcousticLinkStatus()"
   ]
 }
