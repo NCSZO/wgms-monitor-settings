@@ -1,18 +1,17 @@
 {
-  "active": false,
+  "active": true,
   "commands": [
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
     "%G1_LuaWrapper.GetSystemStatus()",
-    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FAE\")",
-    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FB6\")",
+    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FB3\")",
+    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FBB\")",
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
     "%G1_LuaWrapper.SendTCVRCommand(\"VS\")",
-    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FBD\")",
-    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FAE\")",
+    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FB1\")",
+    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FB3\")",
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
     "%G1_LuaWrapper.CheckAcousticLinkStatus()",
-    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FB6\")",
-    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FBD\")"
+    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FBB\")",
+    "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FB1\")"
   ]
 }
-    
