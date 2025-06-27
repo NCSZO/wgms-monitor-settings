@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "commands": [
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
     "%G1_LuaWrapper.GetSystemStatus()",
