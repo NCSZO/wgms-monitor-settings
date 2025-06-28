@@ -3,6 +3,14 @@
   "commands": [
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
     "%G1_LuaWrapper.GetSystemStatus()",
+    "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
+    "%G1_LuaWrapper.SendTCVRCommand(\"VS\")",
+    "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
+    "%G1_LuaWrapper.CheckAcousticLinkStatus()"
+  ],
+  "old_commands": [
+    "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
+    "%G1_LuaWrapper.GetSystemStatus()",
     "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FAE\")",
     "%G1_LuaWrapper.SendGPSACommand(\"LAST:U005FB6\")",
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
