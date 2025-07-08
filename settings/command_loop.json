@@ -1,10 +1,10 @@
 {
-  "active": false,
+  "active": true,
   "commands": [
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
     "%G1_LuaWrapper.GetSystemStatus()",
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
-    "%G1_LuaWrapper.SendTCVRCommand(\"VS\")",
+    "%G1_LuaWrapper.GetSystemStatus()",
     "%G1_LuaWrapper.SendGPSACommand(\"TGT\")",
     "%G1_LuaWrapper.CheckAcousticLinkStatus()"
   ],
